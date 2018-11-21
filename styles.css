@@ -1,0 +1,23 @@
+#calculator {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:10%;
+    width:21%;
+    border: 2px solid gray;
+    padding: 15px;
+}
+#input-line {
+    border: 1px solid gray;
+    padding: 7px;
+}
+#main-area, #second-row, #third-row, #fourth-row, #fifth-row {
+    width:100%;
+    text-align: justify;
+}
+button {
+    width: 65px;
+    margin-top: 10px;
+}
+.btn-ce{
+    margin:0;
+}
