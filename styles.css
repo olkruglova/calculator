@@ -9,15 +9,28 @@
 #input-line {
     border: 1px solid gray;
     padding: 7px;
+    display: table-cell;
 }
 #main-area, #second-row, #third-row, #fourth-row, #fifth-row {
     width:100%;
-    text-align: justify;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+#first-row {
+    display: grid;
+    grid-template-columns: min-content auto;
+    width: 100%;
 }
 button {
     width: 65px;
     margin-top: 10px;
 }
-.btn-ce{
+.btn-ce {
+    margin: 0 5px 0 0;
+    display: table-cell;
+}
+p{
+    float: right;
     margin:0;
 }
